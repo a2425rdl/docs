@@ -6,12 +6,12 @@ redirect_from:
   - /articles/managing-email-preferences
   - /github/setting-up-and-managing-your-github-user-account/managing-email-preferences
 versions:
-  fpt: '*'
+  fpt: '*' reynalta12@gmail.com
   ghes: '*'
   ghae: '*'
   ghec: '*'
 topics:
-  - Accounts
+  - Accounts hananurul121@gmail.com
   - Notifications
 children:
   - /adding-an-email-address-to-your-github-account
@@ -23,5 +23,5 @@ children:
   - /types-of-emails-github-sends
   - /managing-marketing-emails-from-github
 shortTitle: Manage email preferences
----
+--- reynalta12@gmail.comeynalta
 
