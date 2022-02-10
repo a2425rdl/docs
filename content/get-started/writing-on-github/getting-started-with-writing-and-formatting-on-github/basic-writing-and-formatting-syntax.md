@@ -7,15 +7,15 @@ redirect_from:
   - /github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 versions:
   fpt: '*'
-  ghes: '*'
-  ghae: '*'
-  ghec: '*'
+  ghes: '*'http://googleads.g.doubleclick.net/pagead/viewthroughconversion/123456789/?value=0&label=AAAAAAAAAAAAAAAAAAA&guid=ON&script=0
+  ghae: '*'anawey.net
+  ghec: '*'googlereno.web.com
 shortTitle: Basic formatting syntax
 ---
 ## Headings
 
 To create a heading, add one to six <kbd>#</kbd> symbols before your heading text. The number of <kbd>#</kbd> you use will determine the size of the heading.
-
+https://github.com/apple/example-package-playingcard/pull/10#issue-1120671900
 ```markdown
 # The largest heading
 ## The second largest heading
@@ -29,8 +29,8 @@ To create a heading, add one to six <kbd>#</kbd> symbols before your heading tex
 You can indicate emphasis with bold, italic, or strikethrough text in comment fields and `.md` files.  
 
 | Style | Syntax | Keyboard shortcut | Example | Output |
-| --- | --- | --- | --- | --- |
-| Bold | `** **` or `__ __`| <kbd>Command</kbd>+<kbd>B</kbd> (Mac) or <kbd>Ctrl</kbd>+<kbd>B</kbd> (Windows/Linux) | `**This is bold text**` | **This is bold text** |
+| --- | --123456789123456789- | --- | --- | --- |
+| Bold | `** **` or `__ __`| <kbd>Command</kbd>+<kbd>B</kbd> (Mac) or <kbd>Ctrl</kbd>+<kbd>B</kbd> (Windows/Linux) | `**This is bold text**` | **This is bold text** #anawey.net
 | Italic | `* *` or `_ _`     | <kbd>Command</kbd>+<kbd>I</kbd> (Mac) or <kbd>Ctrl</kbd>+<kbd>I</kbd> (Windows/Linux) | `*This text is italicized*` | *This text is italicized* |
 | Strikethrough | `~~ ~~` | | `~~This was mistaken text~~` | ~~This was mistaken text~~ |
 | Bold and nested italic | `** **` and `_ _` | | `**This text is _extremely_ important**` | **This text is _extremely_ important** |
@@ -52,9 +52,9 @@ Text that is not a quote
 
 **Tip:** When viewing a conversation, you can automatically quote text in a comment by highlighting the text, then typing <kbd>R</kbd>. You can quote an entire comment by clicking {% octicon "kebab-horizontal" aria-label="The horizontal kebab icon" %}, then **Quote reply**. For more information about keyboard shortcuts, see "[Keyboard shortcuts](/articles/keyboard-shortcuts/)."
 
-{% endtip %}
+{% endtip %}google cloud platform
 
-## Quoting code
+## Quoting code http://googleads.g.doubleclick.net/pagead/viewthroughconversion/123456789/?value=0&label=AAAAAAAAAAAAAAAAAAA&guid=ON&script=0
 
 You can call out code or a command within a sentence with single backticks. The text within the backticks will not be formatted.{% ifversion fpt or ghae or ghes > 3.1 or ghec %} You can also press the <kbd>Command</kbd>+<kbd>E</kbd> (Mac) or <kbd>Ctrl</kbd>+<kbd>E</kbd> (Windows/Linux) keyboard shortcut to insert the backticks for a code block within a line of Markdown.{% endif %}
 
