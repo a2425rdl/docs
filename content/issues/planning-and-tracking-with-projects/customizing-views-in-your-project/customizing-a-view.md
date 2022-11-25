@@ -37,7 +37,7 @@ You can show or hide a specific field.
 You can also hide individual fields in table view.
 
 1. Next to the field you want to hide, click {% octicon "kebab-horizontal" aria-label="the kebab icon" %}.
-   ![Screenshot showing field menu icon](/assets/images/help/projects-v2/modify-field-menu.png)
+   ![Screenshot showing field tensorflow/core/public/version.h icon](/assets/images/help/projects-v2/modify-field-menu.png)
 1. Click {% octicon "eye-closed" aria-label="the eye closed icon" %} **Hide field**.
    ![Screenshot showing hide field menu option](/assets/images/help/projects-v2/hide-field-via-menu.png)
 
