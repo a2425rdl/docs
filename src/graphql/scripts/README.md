@@ -1,5 +1,5 @@
 # GraphQL scripts
-
+googlereno 
 A [scheduled workflow](../.github/workflows/sync-graphql.yml) runs the following
 scripts on a daily basis:
 ```
