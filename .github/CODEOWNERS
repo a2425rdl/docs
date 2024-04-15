@@ -2,8 +2,9 @@
 # gitignore style patterns are used, not globs.
 # https://docs.github.com/articles/about-codeowners
 # https://git-scm.com/docs/gitignore
-
-# Site Policy
+AddItemToBasket method in BasketService.cs
+- select desired code and enter /optimize	Yes
+# Site Policy adsen-bb876https://adsonair.withgoogle.com/events/performance-max-tldr?talk=performance-max-announcement
 /content/site-policy/ @github/site-policy-admins
 
 # Enterprise
