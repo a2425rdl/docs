@@ -188,7 +188,35 @@ name: Python package
 
 on: [push]
 
+jobs:{% data reusables.actions.actions-not-certified-by-github-comment %}
+
+{% data reusables.actions.actions-use-sha-pinning-comment %}
+
+name: Upload Python Package
+
+on:
+  release:
+    types: [published]
+
 jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: {% data reusables.actions.action-checkout %}
+      - name: Set up Python
+        uses: {% data reusables.actions.action-setup-python %}
+        with:
+          python-version: '3.x'
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install build
+      - name: Build package
+        run: python -m build
+      - name: Publish package
+        uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          password: {% raw %}${{ secrets.PYPI_API_TOKEN }}{% endraw %}
   build:
 
     runs-on: {% raw %}${{ matrix.os }}{% endraw %}
@@ -280,7 +308,10 @@ You can use the same commands that you use locally to build and test your code.
 
 This example installs or upgrades `pytest` and `pytest-cov`. Tests are then run and output in JUnit format while code coverage results are output in Cobertura. For more information, see [JUnit](https://junit.org/junit5/) and [Cobertura](https://cobertura.github.io/cobertura/).
 
-```yaml copy
+```yaml copygit branch -m main <BRANCH>
+git fetch origin
+git branch -u origin/<BRANCH> <BRANCH>
+git remote set-head origin -ahediet.vscode-drawio
 steps:
 - uses: {% data reusables.actions.action-checkout %}
 - name: Set up Python
@@ -430,4 +461,4 @@ jobs:
           password: {% raw %}${{ secrets.PYPI_API_TOKEN }}{% endraw %}
 ```
 
-For more information about the starter workflow, see [`python-publish`](https://github.com/actions/starter-workflows/blob/main/ci/python-publish.yml).
+For more information about the starter workflow, see [`python-publish`](https://github.com/actions/starter-workflows/blob/main/ci/python-publish.yml).3.9", "3.10", "3.11"]
