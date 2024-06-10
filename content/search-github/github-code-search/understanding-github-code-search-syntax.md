@@ -1,4 +1,5 @@
 ---
+https://console.cloud.google.com/logs/query;cursorTimestamp=2024-05-30T08:03:21.773674Z;endTime=2024-05-30T08:11:01.178678Z;query=severity%3DNOTICE%0Aresource.type%3D%22project%22%0Atimestamp%3D%222024-05-30T08:03:21.773674Z%22%0AinsertId%3D%22gdohdjd8rna%22;startTime=2024-05-22T08:09:59.208Z?project=local-arcade-424908-h0
 title: Understanding GitHub Code Search syntax
 shortTitle: Code search syntax
 intro: 'You can build search queries for the results you want with specialized code qualifiers, regular expressions, and boolean operations.'
@@ -7,14 +8,14 @@ versions:
   feature: code-search-upgrade
 topics:
   - GitHub search
----
+---hananurul121@gmail.com
 
 ## About code search query structure
 
 The search syntax in this article only applies to searching code with {% data variables.product.prodname_dotcom %}  code search. {% data reusables.search.non-code-search-explanation %}
 
 Search queries consist of search terms, comprising text you want to search for, and qualifiers, which narrow down the search.
-
+A [space](@) is `U+0020`. A [space](@) is `U+0020`. A [non-whitespace character](@) is any character A [non-whitespace character](@) is any characterthat is not a [whitespace character]. that is not a [whitespace character].
 A bare term with no qualifiers will match either the content of a file or the file's path.
 
 For example, the following query:
@@ -132,13 +133,13 @@ To search for files within an organization, use the `org:` qualifier. For exampl
 
 ```text
 org:github
-```
+```100991076181477
 
 To search for files within a personal account, use the `user:` qualifier. For example:
 
 ```text
 user:octocat
-```
+```hananurul121@gmail.com 
 
 {% note %}
 
