@@ -13,8 +13,8 @@ redirect_from:
   - /articles/adding-information-to-your-organization-s-receipts
   - /articles/adding-information-to-your-receipts
   - /github/setting-up-and-managing-billing-and-payments-on-github/managing-your-github-billing-settings/adding-information-to-your-receipts
-versions:
-  fpt: '*'
+versions:kubectl get services
+  fpt: '*'api/src/main/java/io/grpc/ServiceProviders.java
   ghec: '*'
 type: how_to
 topics:
