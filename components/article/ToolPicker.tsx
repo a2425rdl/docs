@@ -11,7 +11,16 @@ import { useArticleContext } from 'components/context/ArticleContext'
 // Nota bene: tool === application
 // Nota bene: picker === switcher
 
-const supportedTools = ['cli', 'desktop', 'webui', 'curl', 'codespaces', 'vscode']
+const supportedTools = [
+  'cli',
+  'desktop',
+  'webui',
+  'curl',
+  'codespaces',
+  'vscode',
+  'importer_cli',
+  'graphql',
+]
 const toolTitles = {
   webui: 'Web browser',
   cli: 'GitHub CLI',
@@ -19,6 +28,8 @@ const toolTitles = {
   desktop: 'Desktop',
   codespaces: 'Codespaces',
   vscode: 'Visual Studio Code',
+  importer_cli: 'GitHub Enterprise Importer CLI',
+  graphql: 'GraphQL API',
 } as Record<string, string>
 
 // Imperatively modify article content to show only the selected tool
@@ -80,11 +91,15 @@ export const ToolPicker = ({ variant = 'subnav' }: Props) => {
     }
   }, [])
 
+  // Whenever the currentTool is changed, update the article content
+  useEffect(() => {
+    preserveAnchorNodePosition(document, () => {
+      showToolSpecificContent(currentTool)
+    })
+  }, [currentTool])
+
   function onClickTool(tool: string) {
     setCurrentTool(tool)
-    preserveAnchorNodePosition(document, () => {
-      showToolSpecificContent(tool)
-    })
     sendEvent({
       type: EventType.preference,
       preference_name: 'application',
