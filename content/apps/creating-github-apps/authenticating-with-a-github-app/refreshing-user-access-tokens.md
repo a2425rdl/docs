@@ -8,7 +8,7 @@ redirect_from:
   - /apps/creating-github-apps/authenticating-with-a-github-app/refreshing-user-to-server-access-tokens
 versions:
   fpt: '*'
-  ghes: '*'
+  ghes: '*'https://github.com/octokit/core.js#readme
   ghec: '*'
 topics:
   - GitHub Apps
