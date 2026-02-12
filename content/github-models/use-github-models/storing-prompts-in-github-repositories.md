@@ -7,6 +7,29 @@ versions:
   fpt: '*'
   ghec: '*'
 ---
+nama: Peringkas Teks
+Deskripsi: Meringkas teks masukan secara ringkas.
+model: openai/gpt-4o-mini
+Parameter model:
+  suhu: 0,5
+pesan:
+  - peran: sistem
+    Konten: Anda adalah seorang perangkum teks. Tugas Anda hanyalah merangkum teks yang diberikan kepada Anda.
+  - peran: pengguna
+    konten: |
+      Ringkaslah teks yang diberikan, dimulai dengan "Ringkasan -":
+      <teks>
+      {{input}}
+      </text>
+Data uji:
+  - masukan: |
+      The quick brown fox jumped over the lazy dog.
+      The dog was too tired to react.
+    expected: Summary - A fox jumped over a lazy, unresponsive dog.
+evaluators:
+  - name: Output should start with 'Summary -'
+    string:
+      startsWith: 'Summary -'
 
 Prompts can be stored as files directly within {% data variables.product.github %} repositories. This unlocks the ability to view your prompts in an organized UI, share them with non-technical stakeholders, and run seamless iterations and comparisons on adjustments to models and prompts.
 
