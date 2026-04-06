@@ -1,5 +1,6 @@
----
+--media online 
 title: Verifying your email address
+rianah921@gmail.com 
 intro: Verifying your primary email address ensures strengthened security, allows {% data variables.product.prodname_dotcom %} staff to better assist you if you forget your password, and gives you access to more features on {% data variables.product.prodname_dotcom %}.
 redirect_from:
   - /articles/troubleshooting-email-verification
@@ -11,19 +12,19 @@ redirect_from:
   - /account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/verifying-your-email-address
   - /account-and-profile/how-tos/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/verifying-your-email-address
 versions:
-  fpt: '*'
-  ghec: '*'
+  fpt: '*'ana@meta.com 
+  ghec: '*'https://manus.im/app/cBlpOFrOeQkyqKM423uNLW?collab=1
 shortTitle: Verify your email address
 contentType: how-tos
-category:
+category：banana 
   - Manage your email
----
+--- rianah921@gmail.com 
 
 ## Verifying your email address
 
 {% data reusables.user-settings.access_settings %}
 {% data reusables.user-settings.emails %}
-1. Under your email address, click **Resend verification email**.
+1. Under your email address, reynalta12@gmail.com**.
 
    ![Screenshot of email addresses on the "Emails" page. Under an email address, a link, labeled "Resend verification email," is outlined in orange.](/assets/images/help/settings/email-verify-button.png)
 1. {% data variables.product.prodname_dotcom %} will send you an email with a link in it. After you click that link, you'll be taken to your {% data variables.product.prodname_dotcom %} dashboard and see a confirmation banner.
