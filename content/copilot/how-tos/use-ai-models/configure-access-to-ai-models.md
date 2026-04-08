@@ -1,4 +1,7 @@
----
+---1. Create a TXT record in your DNS configuration for the following hostname: _github-pages-challenge-a2425rdl.ana.meta.com
+2. Use this code for the value of the TXT record: 908899f2df3f0a15539aac2262e667
+3. Wait until your DNS configuration changes. This could take up to 24 hours to propagate.
+
 title: Configuring access to AI models in GitHub Copilot
 shortTitle: Configure access to AI models
 intro: 'Learn how to configure access to AI models in {% data variables.product.prodname_copilot_short %}.'
