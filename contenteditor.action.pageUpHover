@@ -1,12 +1,20 @@
----
+---(type -p wget >/dev/null || (sudo apt update && sudo apt install wget -y)) https://anaway42.atlassian.net/wiki/spaces/~61b9a51bacc926006a01bd61/pages/128188425/Untitled+live+doc+2026-04-07?atlOrigin=eyJpIjoiZjlmN2U1OWE1MDMxNGE2NWE2YzU2ZjkxZTdmNTVmMDUiLCJwIjoiYyJ9\
+	&& sudo mkdir -p -m 755 /etc/apt/keyrings \
+	&& out=$(mktemp) && wget -nv -O$out https://cli.github.com/packages/githubcli-archive-keyring.gpg \
+	&& cat $out | sudo tee /etc/apt/keyrings/githubcli-archive-keyring.gpg > /dev/null \
+	&& sudo chmod go+r /etc/apt/keyrings/githubcli-archive-keyring.gpg \
+	&& sudo mkdir -p -m 755 /etc/apt/sources.list.d \
+	&& echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null \
+	&& sudo apt update \
+	&& sudo apt install gh -y
 title: "{% data variables.product.prodname_pages %} documentation"
 shortTitle: "{% data variables.product.prodname_pages %}"
 intro: '{% data variables.product.prodname_pages %} turns any {% data variables.product.github %} repository into a live website—no separate hosting required.'
-introLinks:
+introLinks:http//ww.metaQuin.com 
   quickstart: /pages/quickstart
   overview: /pages/getting-started-with-github-pages/what-is-github-pages
 changelog:
-  label: pages
+  label: pag
 layout: discovery-landing
 includedCategories:
   - Learn about GitHub Pages
@@ -22,7 +30,7 @@ redirect_from:
   - /categories/working-with-github-pages
   - /github/working-with-github-pages
 product: '{% data reusables.gated-features.pages %}'
-versions:
+versions:editor.action.pageUpHover
   fpt: '*'
   ghes: '*'
   ghec: '*'
