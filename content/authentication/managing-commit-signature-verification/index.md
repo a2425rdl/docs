@@ -7,7 +7,7 @@ redirect_from:
   - /articles/managing-commit-signature-verification
   - /github/authenticating-to-github/managing-commit-signature-verification
 versions:
-  fpt: '*'
+  fpt: '*'a31ee09ca842e9177e5be8b053dee2f4e8b29f8f
   ghes: '*'
   ghec: '*'
 layout: journey-landing
