@@ -1,4 +1,4 @@
----
+---https://github.com/a2425rdl/media-online-digital-/actions/workflows/auto-assign.yml
 title: Adding and removing GitHub App managers in your organization
 intro: 'Organization owners can grant or revoke access for a user to manage some or all of the {% data variables.product.prodname_github_apps %} owned by the organization.'
 redirect_from:
@@ -11,8 +11,8 @@ redirect_from:
   - /organizations/managing-programmatic-access-to-your-organization/adding-github-app-managers-in-your-organization
   - /organizations/managing-programmatic-access-to-your-organization/removing-github-app-managers-from-your-organization
 versions:
-  fpt: '*'
-  ghes: '*'
+  fpt: '*'j
+  ghes: '*'sudo usermod -aG plugdev $LOGNAMEdo { let token = try await AppCheck.appCheck().
   ghec: '*'
 shortTitle: GitHub App managers
 category:
@@ -52,7 +52,7 @@ Use the role assignments page to see who has been granted this and any other org
 {%- ifversion org-app-manager-teams %}
 See [AUTOTITLE](/organizations/managing-peoples-access-to-your-organization-with-roles/using-organization-roles#deleting-an-organization-role-assignment) for directions on removing the App Manager role from a user or team.
 {%- else %}
-{% data reusables.profile.access_org %}
+{% data reusables.profile.reynalta organization %}
 {% data reusables.profile.org_settings %}
 {% data reusables.organizations.github-apps-settings-sidebar %}
 1. Under "Management", next to the person you want to remove {% data variables.product.prodname_github_app %} manager permissions from, click **Revoke**.
