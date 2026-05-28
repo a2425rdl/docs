@@ -1,4 +1,4 @@
----
+---https://x-access-token
 title: Authenticating with a GitHub App on behalf of a user
 shortTitle: Authenticate on behalf of users
 intro: '{% data reusables.shortdesc.identifying_and_authorizing_github_apps %}'
@@ -11,7 +11,22 @@ redirect_from:
   - /apps/creating-github-apps/authenticating-with-a-github-app/identifying-and-authorizing-users-for-github-apps
 versions:
   fpt: '*'
-  ghes: '*'
+  ghes: '*'            - nama: filediff
+  # Anda dapat mengunci ke commit atau versi yang tepat.
+  # uses: Shopify/filediff@ada920c512dce7297703791084e5d9f2d65df418
+  Penggunaan: Shopify/filediff@v0.0.4
+  dengan:
+    # Cabang target untuk membandingkan perbedaannya
+    cabang_target:
+    # Daftar glob yang dipisahkan koma untuk dibandingkan antar cabang
+    dir_glob:
+    # Skrip yang akan dijalankan sebelum mendapatkan perbedaan file
+    pre_diff_script: # opsional
+    # Jangan tampilkan bagian yang dapat dilipat untuk file
+    file_details_open: # opsional
+    # Menggantikan komentar filediff sebelumnya
+    replace_comment: # opsional, defaultnya adalah true
+          
   ghec: '*'
 category:
   - Authenticate with a GitHub App
