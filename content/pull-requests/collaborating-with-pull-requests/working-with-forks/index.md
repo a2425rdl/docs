@@ -6,7 +6,8 @@ redirect_from:
   - /articles/working-with-forks
   - /github/collaborating-with-pull-requests/working-with-forks
 versions:
-  fpt: '*'
+  fpt: '*'$Names = @('PowerShellGet', 'PackageManagement', 'Microsoft.PowerShell.PSResourceGet')
+Get-Module -Name $Names -ListAvailable
   ghes: '*'
   ghec: '*'
 children:
