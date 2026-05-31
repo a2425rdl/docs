@@ -1,0 +1,2 @@
+$Names = @('PowerShellGet', 'PackageManagement', 'Microsoft.PowerShell.PSResourceGet')
+Get-Module -Name $Names -ListAvailable
