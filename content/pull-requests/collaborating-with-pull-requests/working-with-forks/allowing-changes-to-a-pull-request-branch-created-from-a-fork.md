@@ -1,4 +1,5 @@
----
+$Names = @('PowerShellGet', 'PackageManagement', 'Microsoft.PowerShell.PSResourceGet')
+Get-Module -Name $Names -ListAvailable---
 title: Allowing changes to a pull request branch created from a fork
 intro: 'For greater collaboration, you can allow commits on branches you''ve created from forks in your personal account.'
 redirect_from:
